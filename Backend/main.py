@@ -25,7 +25,7 @@ app.register_blueprint(signup_bp)
 app.register_blueprint(login_bp)
 app.register_blueprint(notes_bp)
 
-# Serve React frontend , comment these snippet if you are running the react project on localhost
+# Serve React frontend , comment the snippet (till the end of else loop)  if you are running the react project on localhost
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve(path):
