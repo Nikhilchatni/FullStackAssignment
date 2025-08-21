@@ -9,7 +9,7 @@ from api.notes import notes_bp
 from flask_jwt_extended import JWTManager
 
 # Point Flask static files to React build folder
-app = Flask(__name__, static_folder="build", static_url_path="/")
+app = Flask(__name__, static_folder="build", static_url_path="/") #comment this line if you are running the react project on localhost
 
 # Database configuration
 password = urllib.parse.quote_plus("P@ssw0rd")
@@ -25,7 +25,7 @@ app.register_blueprint(signup_bp)
 app.register_blueprint(login_bp)
 app.register_blueprint(notes_bp)
 
-# Serve React frontend
+# Serve React frontend , comment these snippet if you are running the react project on localhost
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve(path):
