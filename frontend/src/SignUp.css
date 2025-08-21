@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f0ecd9;
+}
+
+.header {
+    background-color: #8eb7be;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 500;
+}
+
+.breadcrumb {
+    margin: 20px 40px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.breadcrumb span {
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+
+.signup-card {
+    width: 360px;
+    background: #fdf6e3;
+    border: 1px solid #d9c9a9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+.signup-title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eecfa6;
+    padding: 6px 10px;
+    border-radius: 6px 6px 0 0;
+    font-size: 14px;
+    margin: -20px -20px 15px -20px;
+}
+
+.title-icons {
+    display: flex;
+    gap: 6px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
+    background: #ff5f56;
+}
+
+.yellow {
+    background: #ffbd2e;
+}
+
+.green {
+    background: #27c93f;
+}
+
+.signup-heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.signup-card label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin: 6px 0 4px;
+    color: #3a3a3a;
+}
+
+.signup-card input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    font-size: 13px;
+    width: 40%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.register-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.login-btn {
+    background-color: #d5975f;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
