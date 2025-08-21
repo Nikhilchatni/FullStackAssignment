@@ -49,4 +49,4 @@ Addingnote & after adding notes -> outputscreenshots/Addingnote.png & outputscre
 Editingnote & after editingnotes -> outputscreenshots/editing.png & outputscreenshots/aftereditingnote.png
 Deletingnote -> outputscreenshots/Deletingnote.png
 
-Note: There 2 ways either you can install the python dependenices and run the main file then from the backend url itself you can see the frontend , or there is an another option setup the frontend and comment the lines which i mentioned in main.py file so that react and python runs on the different localhosts
+Note: There 2 ways to setup either you can install the python dependenices and run the main file then from the backend url itself you can see the frontend , or there is an another option setup the frontend and comment the lines which i mentioned in main.py file so that react and python runs on the different localhosts
