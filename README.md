@@ -41,7 +41,7 @@ npm start
 Frontend runs on http://localhost:3000
 
 **Output Details**
-These present in the output screenshots
+These are present in the output screenshots folder
 1. Login page -> outputscreenshots/Loginscreen.png
 2. SignUp page -> outputscreenshots/Signupscreen.png
 3. HomeScreen -> outputscreenshots/homescreen.png
